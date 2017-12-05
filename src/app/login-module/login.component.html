@@ -1,0 +1,16 @@
+<form >
+   
+  
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" [(ngModel)]='userdata.username' required ><br><br>
+  
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" [(ngModel)]='userdata.password' required >
+  
+      <button type="submit" (click)="login()">Login</button>
+     
+    </div>
+  
+   
+  </form>
